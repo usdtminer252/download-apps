@@ -34,6 +34,15 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+  .column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
 
 html {
   font-family: sans-serif;
